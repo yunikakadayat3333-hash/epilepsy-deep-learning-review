@@ -8,9 +8,12 @@ papers on deep learning for EEG-based epileptic seizure
 detection and prediction.
 
 ## Contents
-- `epilepsy_review_analysis.ipynb` — Main analysis notebook
-- `corpus_filtered.csv` — 2,474 papers filtered from OpenAlex
-- Additional CSVs — Per-stage paper analyses
+epilepsy_review_analysis.ipynb` — full pipeline: OpenAlex query, three-stage filter, BERTopic, figures
+- `corpus_filtered.csv` — 2,474 papers (titles, abstracts, authors, affiliations, years, citations, keywords)
+- `stage_a_papers.csv` to `stage_d_papers.csv` — per-stage paper subsets
+- `papers_with_topics.csv` — corpus with BERTopic assignments (38 topics)
+- `bertopic_model.pkl` — fitted BERTopic model
+- `requirements.txt` — package versions used
 
 ## How to reproduce
 1. Open `epilepsy_review_analysis.ipynb` in Google Colab
