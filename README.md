@@ -5,8 +5,7 @@
 This repository contains the analysis code and data for 
 a PRISMA-compliant systematic bibliometric review of 2,474 
 papers on deep learning for EEG-based epileptic seizure 
-detection and prediction, submitted to Computers in Biology 
-and Medicine.
+detection and prediction.
 
 ## Contents
 - `epilepsy_review_analysis.ipynb` — Main analysis notebook
