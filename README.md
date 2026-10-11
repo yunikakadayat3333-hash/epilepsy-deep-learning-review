@@ -27,4 +27,4 @@ explicit mention of epilepsy, deep learning, and EEG terms.
 MIT License
 
 ## Author
-Yunika Kadayat
+Yunika Kadayat, Vijay Singh, Parul Madan, Preeti Narooka
